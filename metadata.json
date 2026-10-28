@@ -1,0 +1,6 @@
+{
+  "name": "Jarvis Phone Assistant",
+  "description": "Tony Stark J.A.R.V.I.S. voice AI assistant and PC Beast Control system featuring a futuristic holographic AI face, audio-reactive speech animation, hands-free always-online continuous voice conversation, autonomous device commands, and smart assistance.",
+  "requestFramePermissions": ["microphone", "camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

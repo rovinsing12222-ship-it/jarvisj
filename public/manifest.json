@@ -1,0 +1,65 @@
+{
+  "id": "/",
+  "name": "JARVIS AI Phone Assistant",
+  "short_name": "JARVIS",
+  "description": "Android voice AI assistant and PC Beast Control system featuring hands-free speech, phone controls, contacts, calls, and always-run lock screen mode.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "categories": ["utilities", "productivity", "personalization"],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Make Phone Call",
+      "short_name": "Call",
+      "description": "Call a saved contact instantly",
+      "url": "/?action=call",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Send Message",
+      "short_name": "Message",
+      "description": "Send SMS or WhatsApp",
+      "url": "/?action=message",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contacts Manager",
+      "short_name": "Contacts",
+      "description": "View saved contacts",
+      "url": "/?action=contacts",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
